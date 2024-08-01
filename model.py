@@ -44,8 +44,8 @@ def model_keras(modelYolu, labelYolu, gorselYolu):
     return ("Class:", class_name.strip(), "Confidence Score:", confidence_score)
 
 # Example usage
-model_path = "c:\\Users\\Ege\\Desktop\\DİSCORD BOT WİTH Aİ\\bot m7l2\\keras_model.h5"
-label_path = "c:\\Users\\Ege\\Desktop\\DİSCORD BOT WİTH Aİ\\bot m7l2\\labels.txt"
+model_path = "FİLA ROAD MODEL H5"
+label_path = "FİLA ROAD LABELS"
 image_path = "path_to_your_image.jpg"
 
 try:
