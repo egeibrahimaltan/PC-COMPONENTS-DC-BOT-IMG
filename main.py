@@ -31,8 +31,8 @@ async def kontrol(ctx):
             await attachment.save(local_file_path)
             await ctx.send(f"Gönderdiğiniz fotoğraf kayit Edildi. Fotoğrafın Adı: {fileName}, Fotoğrafın dosya yolu: {fileUrl}")
 
-            model_path = "c:\\Users\\Ege\\Desktop\\DİSCORD BOT WİTH Aİ\\bot m7l2\\keras_model.h5"
-            label_path = "c:\\Users\\Ege\\Desktop\\DİSCORD BOT WİTH Aİ\\bot m7l2\\labels.txt"
+            model_path = "FİLA ROAD MODEL KERAS "
+            label_path = "FİLA ROAD LABELS "
             
             try:
                 result = model_keras(modelYolu=model_path, labelYolu=label_path, gorselYolu=local_file_path)
